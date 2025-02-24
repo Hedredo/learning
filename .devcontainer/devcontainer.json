@@ -1,0 +1,12 @@
+{
+    "name": "Learning",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "GitHub.copilot"
+        ]
+      }
+    }
+  }
+  
