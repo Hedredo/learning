@@ -15,3 +15,6 @@ segmentation = [
     "scikit-learn>=1.6.1",
     "tensorflow>=2.18.0",
 ]
+sqlmodel = [
+    "sqlmodel>=0.0.22",
+]
