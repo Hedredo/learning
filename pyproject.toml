@@ -1,0 +1,17 @@
+[project]
+name = "learning"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pydot>=3.0.4",
+]
+
+[dependency-groups]
+segmentation = [
+    "graphviz>=0.20.3",
+    "ipykernel>=6.29.5",
+    "matplotlib>=3.10.0",
+    "pydot>=3.0.4",
+    "scikit-learn>=1.6.1",
+    "tensorflow>=2.18.0",
+]
