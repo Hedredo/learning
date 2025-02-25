@@ -4,6 +4,8 @@ version = "0.1.0"
 requires-python = ">=3.10"
 dependencies = [
     "pydot>=3.0.4",
+    "pysqlite3>=0.5.4",
+    "sqlalchemy>=2.0.38",
 ]
 
 [dependency-groups]

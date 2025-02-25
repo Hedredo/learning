@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="/home/hedredo/github/learning/sqlmodel/database.db" readonly="0" foreign_keys="" case_sensitive_like="" temp_store="" wal_autocheckpoint="" synchronous=""/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="983"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="0,0:"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">INSERT INTO &quot;hero&quot; (&quot;name&quot;, &quot;secret_name&quot;)
+VALUES (&quot;JamesBond&quot;, &quot;Dive Wilson&quot;)</sql><sql name="SQL 2">CREATE TABLE &quot;noobhero&quot; ( --
+  &quot;id&quot;  INTEGER, --
+  &quot;name&quot;  TEXT NOT NULL, --
+  &quot;secret_name&quot; TEXT NOT NULL, --
+  &quot;age&quot; INTEGER, --
+  PRIMARY KEY(&quot;id&quot;) --
+); --</sql><sql name="SQL 3">SELECT * from hero;</sql><current_tab id="2"/></tab_sql></sqlb_project>
