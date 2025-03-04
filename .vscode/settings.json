@@ -6,6 +6,12 @@
             "driver": "SQLite",
             "name": "admin",
             "database": "./database.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "db2",
+            "database": "database_2.db"
         }
     ]
 }
