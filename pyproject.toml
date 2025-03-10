@@ -20,6 +20,10 @@ gradio = [
     "torchvision>=0.21.0",
     "transformers>=4.49.0",
 ]
+openai = [
+    "dotenv>=0.9.9",
+    "openai>=1.65.5",
+]
 segmentation = [
     "graphviz>=0.20.3",
     "ipykernel>=6.29.5",
